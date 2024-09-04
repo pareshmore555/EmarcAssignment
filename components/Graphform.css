@@ -1,0 +1,94 @@
+.graph-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: "#cacaca";
+    height: 30vh;
+}
+.Graph-form{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    gap: 20px;
+    height: 600px;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+   
+}
+
+.Graph-form h2{
+    
+    margin-left: 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 40px;
+  
+    gap: 20px;
+    
+}
+.firstrow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.inputicons{
+    display: flex;
+    flex-direction: column;
+   
+}
+.priceinput{
+  height: 30px;
+  width: 150px;
+}
+.calenderinput{
+    height: 30px;
+    width: 150px;
+    margin-left: 20px;
+}
+.input1{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+.input2{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+.addchanges{
+    width:150px;
+    padding: 10px;
+    background-color: #000435;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 400px;
+    height: 50px;
+}
+.add{
+   margin-left: 10px;
+    background-color:#90EE90;
+    border-radius: 15px;
+}
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.minus{
+    margin-left: 10px;
+    background-color: #FF474D;
+    border-radius: 15px;
+}

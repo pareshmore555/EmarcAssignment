@@ -1,0 +1,81 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+.graphcontainerlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: "#cacaca";
+    height: 30vh;
+    gap: 40px;
+}
+.graphlist-form{
+    background-color:"#000435";
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1080px;
+    gap: 20px;
+    height: 725px;
+    margin-right: 50px;
+    
+
+}
+.graphlist-form2{
+    background-color:"#000435";
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    gap: 20px;
+    height: 725px;
+    
+}
+
+.twomaindiv{
+    display: flex;
+    flex-direction: row;
+}
+.topbuttons{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+.homebtn{
+    background-color: #000435;
+    color: white;
+}
+.lastbuttons{
+    margin-left: 730px;
+}
+.mainsubhead{
+    margin-top: 25px;
+}
+.form2main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.firstone{
+    background-color:"#000435";
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding-bottom: 10px;
+    height: 150px;
+    
+}
+.secondone{
+    background-color:"#000435";
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  
+    height: 525px;
+}

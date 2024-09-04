@@ -1,0 +1,70 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.graphcontainerlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    height: 30vh;
+    gap: 40px;
+}
+
+.graphlist {
+    background-color: #D3D3D3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 400px;
+}
+
+.Topbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.btnview {
+    background-color: #000435;
+    color: white;
+    margin-right: 20px;
+}
+
+.btndelete {
+    background-color: #f5292d;
+    color: white;
+}
+
+
+
+
+
+.subhead h3 {
+    margin-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.subhead p {
+    margin-top: 2px;
+}
+
+.palmoillast {
+   display: flex;
+   gap: 10px;
+   margin-left: 100px;
+}
+
+.chart {
+    margin-top: 20px;
+    width: 400px;
+}
+.mainsub1{
+    display: flex;
+    flex-direction: row;
+}
